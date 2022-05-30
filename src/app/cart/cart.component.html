@@ -1,0 +1,236 @@
+ <!--================Cart Area =================-->
+    <section class="cart_area">
+      <div class="container">
+        <div class="cart_inner">
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Đơn Hàng</th>
+                  <th scope="col">Giá</th>
+                  <th scope="col">Số Lượng</th>
+                  <th scope="col">Thành Tiền</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="media">
+                      <div class="d-flex">
+                        <img
+                          src="assets/img/hinhanh/ao-thun-regular-in-at083-20578-p.jfif"
+                          alt="" width="20%"
+                        />
+                      </div>
+        
+                    </div>
+                  </td>
+                  <td>
+                    <h5>$360.00</h5>
+                  </td>
+                  <td>
+                    <div class="product_count">
+                      <input
+                        type="text"
+                        name="qty"
+                        id="sst"
+                        maxlength="12"
+                        value="2"
+                        title="Quantity:"
+                        class="input-text qty"
+                      />
+                      <button
+                        onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
+                        class="increase items-count"
+                        type="button"
+                      >
+                        <i class="lnr lnr-chevron-up"></i>
+                      </button>
+                      <button
+                      onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
+                        class="reduced items-count"
+                        type="button"
+                      >
+                        <i class="lnr lnr-chevron-down"></i>
+                      </button>
+                    </div>
+                  </td>
+                  <td>
+                    <h5>$720.00</h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="media">
+                      <div class="d-flex">
+                        <img
+                          src="assets/img/hinhanh/ao-khoac-jean-ak263-15855-p.png"
+                          alt=""width="20%"
+                        />
+                      </div>
+        
+                    </div>
+                  </td>
+                  <td>
+                    <h5>$360.00</h5>
+                  </td>
+                  <td>
+                    <div class="product_count">
+                      <input
+                        type="text"
+                        name="qty"
+                        id="sst1"
+                        maxlength="12"
+                        value="2"
+                        title="Quantity:"
+                        class="input-text qty"
+                      />
+                      <button
+                        onclick="var result = document.getElementById('sst1'); var sst1 = result.value; if( !isNaN( sst1 )) result.value++;return false;"
+                        class="increase items-count"
+                        type="button"
+                      >
+                        <i class="lnr lnr-chevron-up"></i>
+                      </button>
+                      <button
+                        onclick="var result = document.getElementById('sst1'); var sst1 = result.value; if( !isNaN( sst1 ) &amp;&amp; sst1 > 0 ) result.value--;return false;"
+                        class="reduced items-count"
+                        type="button"
+                      >
+                        <i class="lnr lnr-chevron-down"></i>
+                      </button>
+                    </div>
+                  </td>
+                  <td>
+                    <h5>$720.00</h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="media">
+                      <div class="d-flex">
+                        <img
+                          src="assets/img/hinhanh/ao-thun-regular-in-at073-20545-p.jfif"
+                          alt=""width="20%"
+                        />
+                      </div>
+        
+                    </div>
+                  </td>
+                  <td>
+                    <h5>$360.00</h5>
+                  </td>
+                  <td>
+                    <div class="product_count">
+                      <input
+                        type="text"
+                        name="qty"
+                        id="sst2"
+                        maxlength="12"
+                        value="2"
+                        title="Quantity:"
+                        class="input-text qty"
+                      />
+                      <button
+                        onclick="var result = document.getElementById('sst2'); var sst2 = result.value; if( !isNaN( sst2 )) result.value++;return false;"
+                        class="increase items-count"
+                        type="button"
+                      >
+                        <i class="lnr lnr-chevron-up"></i>
+                      </button>
+                      <button
+                      onclick="var result = document.getElementById('sst2'); var sst2 = result.value; if( !isNaN( sst2 ) &amp;&amp; sst2 > 0 ) result.value--;return false;"
+                        class="reduced items-count"
+                        type="button"
+                      >
+                        <i class="lnr lnr-chevron-down"></i>
+                      </button>
+                    </div>
+                  </td>
+                  <td>
+                    <h5>$720.00</h5>
+                  </td>
+                </tr>
+                <tr class="bottom_button">
+                  <td>
+                    <a class="gray_btn" href="#">Cập nhật giỏ hàng</a>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td>
+                    <div class="cupon_text">
+                      <input type="text" placeholder="Coupon Code" />
+                      <a class="main_btn" href="#">Apply</a>
+                      <a class="gray_btn" href="#">Đóng mã giảm</a>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>
+                    <h5>Subtotal</h5>
+                  </td>
+                  <td>
+                    <h5>$2160.00</h5>
+                  </td>
+                </tr>
+                <tr class="shipping_area">
+                  <td></td>
+                  <td></td>
+                  <td>
+                    <h5>Shipping</h5>
+                  </td>
+                  <td>
+                    <div class="shipping_box">
+                      <ul class="list">
+                        <li>
+                          <a href="#">Ship Nhanh: 50.000 Vnđ</a>
+                        </li>
+                        <li>
+                          <a href="#">Free Shipping</a>
+                        </li>
+                        <li>
+                          <a href="#">Giao Hàng tiết kiệm: 10.000 VNĐ</a>
+                        </li>
+                        <li class="active">
+                          <a href="#">Ninja vận: 20.000 VNĐ</a>
+                        </li>
+                      </ul>
+                      <h6>
+                        Calculate Shipping
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                      </h6>
+                      <select class="shipping_select">
+                        <option value="1">Hồ Chí Minh</option>
+                        <option value="2">Hà Nội</option>
+                        <option value="4">Tây Ninh</option>
+                      </select>
+                      <select class="shipping_select">
+                        <option value="1">Quận 1</option>
+                        <option value="2">Quận 1</option>
+                        <option value="4">Quận 1</option>
+                      </select>
+                      <input type="text" placeholder="Postcode/Zipcode" />
+                      <a class="gray_btn" href="#">Cập nhật chi tiết</a>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="out_button_area">
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>
+                    <div class="checkout_btn_inner">
+                      <a class="gray_btn" href="#">Tiếp tục mua</a>
+                      <a class="main_btn" href="#">Đến Thanh Toán</a>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================End Cart Area =================-->
